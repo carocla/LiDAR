@@ -1,0 +1,134 @@
+
+TRAINING
+Epoch 1/20
+137/137 - 32s - 232ms/step - accuracy: 0.9827 - loss: 1.3378 - val_accuracy: 0.9832 - val_loss: 1.3305
+Epoch 2/20
+137/137 - 26s - 186ms/step - accuracy: 0.9843 - loss: 1.2946 - val_accuracy: 0.9832 - val_loss: 1.2992
+Epoch 3/20
+137/137 - 26s - 190ms/step - accuracy: 0.9843 - loss: 1.2588 - val_accuracy: 0.9832 - val_loss: 1.2785
+Epoch 4/20
+137/137 - 25s - 185ms/step - accuracy: 0.9843 - loss: 1.2407 - val_accuracy: 0.9832 - val_loss: 1.2709
+Epoch 5/20
+137/137 - 25s - 179ms/step - accuracy: 0.9843 - loss: 1.2340 - val_accuracy: 0.9832 - val_loss: 1.2678
+Epoch 6/20
+137/137 - 26s - 193ms/step - accuracy: 0.9843 - loss: 1.2313 - val_accuracy: 0.9832 - val_loss: 1.2665
+Epoch 7/20
+137/137 - 25s - 183ms/step - accuracy: 0.9843 - loss: 1.2299 - val_accuracy: 0.9832 - val_loss: 1.2657
+Epoch 8/20
+137/137 - 25s - 183ms/step - accuracy: 0.9843 - loss: 1.2292 - val_accuracy: 0.9832 - val_loss: 1.2653
+Epoch 9/20
+137/137 - 26s - 193ms/step - accuracy: 0.9843 - loss: 1.2287 - val_accuracy: 0.9832 - val_loss: 1.2650
+Epoch 10/20
+137/137 - 24s - 172ms/step - accuracy: 0.9843 - loss: 1.2284 - val_accuracy: 0.9832 - val_loss: 1.2648
+Epoch 11/20
+137/137 - 25s - 185ms/step - accuracy: 0.9843 - loss: 1.2282 - val_accuracy: 0.9832 - val_loss: 1.2647
+Epoch 12/20
+137/137 - 28s - 203ms/step - accuracy: 0.9843 - loss: 1.2280 - val_accuracy: 0.9832 - val_loss: 1.2646
+Epoch 13/20
+137/137 - 24s - 178ms/step - accuracy: 0.9843 - loss: 1.2279 - val_accuracy: 0.9832 - val_loss: 1.2645
+Epoch 14/20
+137/137 - 25s - 182ms/step - accuracy: 0.9843 - loss: 1.2278 - val_accuracy: 0.9832 - val_loss: 1.2645
+Epoch 15/20
+137/137 - 25s - 185ms/step - accuracy: 0.9843 - loss: 1.2277 - val_accuracy: 0.9832 - val_loss: 1.2644
+Epoch 16/20
+137/137 - 23s - 169ms/step - accuracy: 0.9843 - loss: 1.2277 - val_accuracy: 0.9832 - val_loss: 1.2644
+Epoch 17/20
+137/137 - 26s - 189ms/step - accuracy: 0.9843 - loss: 1.2276 - val_accuracy: 0.9832 - val_loss: 1.2644
+Epoch 18/20
+137/137 - 28s - 201ms/step - accuracy: 0.9843 - loss: 1.2276 - val_accuracy: 0.9832 - val_loss: 1.2643
+Epoch 19/20
+137/137 - 24s - 178ms/step - accuracy: 0.9843 - loss: 1.2276 - val_accuracy: 0.9832 - val_loss: 1.2643
+Epoch 20/20
+137/137 - 25s - 184ms/step - accuracy: 0.9843 - loss: 1.2276 - val_accuracy: 0.9832 - val_loss: 1.2643
+
+Batch 0: 0 predicted, 0.0 actual
+
+Batch 1: 0 predicted, 0.0 actual
+
+Batch 2: 0 predicted, 0.0 actual
+
+Batch 3: 0 predicted, 2185.0 actual
+
+Batch 4: 0 predicted, 1927.0 actual
+
+Batch 5: 0 predicted, 52598.0 actual
+
+Batch 6: 0 predicted, 20541.0 actual
+
+Batch 7: 0 predicted, 0.0 actual
+
+Batch 8: 0 predicted, 12789.0 actual
+
+Batch 9: 0 predicted, 44966.0 actual
+
+Batch 10: 0 predicted, 0.0 actual
+
+Batch 11: 0 predicted, 31709.0 actual
+
+Batch 12: 0 predicted, 0.0 actual
+
+Batch 13: 0 predicted, 14279.0 actual
+
+Batch 14: 0 predicted, 1659.0 actual
+
+Batch 15: 0 predicted, 0.0 actual
+
+Batch 16: 0 predicted, 0.0 actual
+
+Batch 17: 0 predicted, 204.0 actual
+
+Batch 18: 0 predicted, 39527.0 actual
+
+Batch 19: 0 predicted, 464.0 actual
+
+Batch 20: 0 predicted, 0.0 actual
+
+Batch 21: 0 predicted, 169085.0 actual
+
+Batch 22: 0 predicted, 586.0 actual
+
+Batch 23: 0 predicted, 32353.0 actual
+
+Batch 24: 0 predicted, 4352.0 actual
+
+Batch 25: 0 predicted, 0.0 actual
+
+Batch 26: 0 predicted, 0.0 actual
+
+Batch 27: 0 predicted, 5428.0 actual
+
+Batch 28: 0 predicted, 14350.0 actual
+
+Batch 29: 0 predicted, 434.0 actual
+
+Batch 30: 0 predicted, 462.0 actual
+
+Batch 31: 0 predicted, 13294.0 actual
+
+Batch 32: 0 predicted, 66564.0 actual
+
+Batch 33: 0 predicted, 141.0 actual
+
+Batch 34: 0 predicted, 0.0 actual
+
+Batch 35: 0 predicted, 35516.0 actual
+
+Batch 36: 0 predicted, 0.0 actual
+
+Batch 37: 0 predicted, 167852.0 actual
+
+Batch 38: 0 predicted, 361.0 actual
+
+Batch 39: 0 predicted, 37250.0 actual
+
+Batch 40: 0 predicted, 1850.0 actual
+
+Batch 41: 0 predicted, 663.0 actual
+
+Batch 42: 0 predicted, 0.0 actual
+
+Batch 43: 0 predicted, 0.0 actual
+
+Batch 44: 0 predicted, 0.0 actual
+
+Batch 45: 0 predicted, 0.0 actual
