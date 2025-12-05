@@ -1,7 +1,8 @@
 # from tf_keras.layers import Conv2D, MaxPool2D
 # from tf_keras import Input, Model
 # NOTE: If running on your local machine instead of BLT, comment out the two lines below and uncomment the two above.
-from tensorflow.keras.layers import Conv2D, MaxPool2D
+from keras import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense
 from tensorflow.keras import Input, Model
 
 from tensorflow.nn import weighted_cross_entropy_with_logits
@@ -29,7 +30,10 @@ train_gen = BatchGenerator(train_tiles, '/home/drake/lidar/lidar_chm', '/home/dr
 valid_gen = BatchGenerator(valid_tiles, '/home/drake/lidar/lidar_chm', '/home/drake/lidar/lidar_tag', batch_size=BATCH_SIZE)
 
 # Define model
-# TODO You have to define your model!
+model = Sequential()
+model.add(Conv2D(filters=32, kernel_size=(3,3), activation="relu",
+                 input_shape=(1000,1000,1), padding='same'))
+model.add(Dense(1, activation="sigmoid"))
 
 # Compile model
 def weighted_loss(a, b):
