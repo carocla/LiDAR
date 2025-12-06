@@ -31,9 +31,21 @@ valid_gen = BatchGenerator(valid_tiles, '/home/drake/lidar/lidar_chm', '/home/dr
 
 # Define model
 model = Sequential()
-model.add(Conv2D(filters=32, kernel_size=(3,3), activation="relu",
-                 input_shape=(1000,1000,1), padding='same'))
-model.add(Dense(1, activation="sigmoid"))
+model.add(Conv2D(
+    filters=32, kernel_size=(3,3), activation="relu",
+    kernel_initializer='he_uniform', input_shape=(1000,1000,1),
+    padding='same'))
+model.add(Conv2D(
+    filters=32, kernel_size=(3,3), activation="relu",
+    kernel_initializer='he_uniform', padding='same'))
+model.add(Conv2D(
+    filters=64, kernel_size=(3,3), activation="relu",
+    kernel_initializer='he_uniform', padding='same'))
+model.add(Conv2D(
+    filters=64, kernel_size=(3,3), activation="relu",
+    kernel_initializer='he_uniform', padding='same'))
+model.add(Conv2D(
+    filters=1, kernel_size=(1, 1), padding='same'))
 
 # Compile model
 def weighted_loss(a, b):
@@ -43,7 +55,7 @@ model.compile(optimizer='adam', loss=weighted_loss, metrics=['accuracy'])
 
 # Train model
 print('\nTRAINING')
-history = model.fit(train_gen, epochs=20, validation_data=valid_gen, verbose=2)
+history = model.fit(train_gen, epochs=40, validation_data=valid_gen, verbose=2)
 
 # Test model
 # Uncomment this if you are done tweaking parameters and want to see how accurate your model is
