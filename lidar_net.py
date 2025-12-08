@@ -56,7 +56,7 @@ model.compile(optimizer='adam', loss=weighted_loss, metrics=['accuracy'])
 # Train model
 print('\nTRAINING')
 history = model.fit(train_gen, epochs=40, validation_data=valid_gen, verbose=2)
-
+model.save('lidar_net.keras')
 # Test model
 # Uncomment this if you are done tweaking parameters and want to see how accurate your model is
 # print('\nTESTING')
