@@ -1,174 +1,174 @@
 
 TRAINING
 Epoch 1/40
-137/137 - 40s - 288ms/step - accuracy: 0.5691 - loss: 12.8318 - val_accuracy: 0.9343 - val_loss: 7.2439
+137/137 - 39s - 282ms/step - accuracy: 0.5691 - loss: 12.8185 - val_accuracy: 0.9340 - val_loss: 7.2018
 Epoch 2/40
-137/137 - 27s - 200ms/step - accuracy: 0.6082 - loss: 3.4464 - val_accuracy: 0.3605 - val_loss: 3.2404
+137/137 - 26s - 189ms/step - accuracy: 0.6455 - loss: 2.5659 - val_accuracy: 0.3765 - val_loss: 2.6203
 Epoch 3/40
-137/137 - 25s - 182ms/step - accuracy: 0.8107 - loss: 1.1629 - val_accuracy: 0.7505 - val_loss: 1.1166
+137/137 - 26s - 191ms/step - accuracy: 0.8160 - loss: 1.0804 - val_accuracy: 0.7720 - val_loss: 1.0934
 Epoch 4/40
-137/137 - 25s - 183ms/step - accuracy: 0.8019 - loss: 0.9886 - val_accuracy: 0.6686 - val_loss: 1.2162
+137/137 - 26s - 190ms/step - accuracy: 0.8219 - loss: 0.9403 - val_accuracy: 0.6809 - val_loss: 1.1817
 Epoch 5/40
-137/137 - 28s - 202ms/step - accuracy: 0.8575 - loss: 0.9049 - val_accuracy: 0.7715 - val_loss: 1.0166
+137/137 - 26s - 193ms/step - accuracy: 0.8623 - loss: 0.8822 - val_accuracy: 0.7666 - val_loss: 1.0108
 Epoch 6/40
-137/137 - 27s - 198ms/step - accuracy: 0.8653 - loss: 0.8254 - val_accuracy: 0.8758 - val_loss: 0.8686
+137/137 - 27s - 198ms/step - accuracy: 0.8650 - loss: 0.8142 - val_accuracy: 0.8847 - val_loss: 0.8564
 Epoch 7/40
-137/137 - 25s - 180ms/step - accuracy: 0.8772 - loss: 0.7987 - val_accuracy: 0.8866 - val_loss: 0.8250
+137/137 - 26s - 192ms/step - accuracy: 0.8775 - loss: 0.7933 - val_accuracy: 0.8841 - val_loss: 0.8247
 Epoch 8/40
-137/137 - 27s - 199ms/step - accuracy: 0.8949 - loss: 0.7358 - val_accuracy: 0.8862 - val_loss: 0.7941
+137/137 - 26s - 193ms/step - accuracy: 0.8929 - loss: 0.7376 - val_accuracy: 0.8815 - val_loss: 0.8168
 Epoch 9/40
-137/137 - 26s - 190ms/step - accuracy: 0.8961 - loss: 0.7405 - val_accuracy: 0.8593 - val_loss: 0.8218
+137/137 - 26s - 190ms/step - accuracy: 0.8920 - loss: 0.7574 - val_accuracy: 0.8925 - val_loss: 0.8077
 Epoch 10/40
-137/137 - 25s - 182ms/step - accuracy: 0.8999 - loss: 0.8134 - val_accuracy: 0.8584 - val_loss: 0.8446
+137/137 - 26s - 192ms/step - accuracy: 0.8857 - loss: 0.7972 - val_accuracy: 0.7521 - val_loss: 1.0536
 Epoch 11/40
-137/137 - 31s - 229ms/step - accuracy: 0.8647 - loss: 0.9864 - val_accuracy: 0.9613 - val_loss: 1.1089
+137/137 - 26s - 189ms/step - accuracy: 0.8960 - loss: 0.9772 - val_accuracy: 0.9333 - val_loss: 0.9104
 Epoch 12/40
-137/137 - 25s - 181ms/step - accuracy: 0.8926 - loss: 0.7752 - val_accuracy: 0.9674 - val_loss: 1.0561
+137/137 - 28s - 203ms/step - accuracy: 0.8980 - loss: 0.6873 - val_accuracy: 0.9630 - val_loss: 1.0226
 Epoch 13/40
-137/137 - 25s - 182ms/step - accuracy: 0.8961 - loss: 0.7930 - val_accuracy: 0.9054 - val_loss: 0.7232
+137/137 - 24s - 177ms/step - accuracy: 0.9014 - loss: 0.7682 - val_accuracy: 0.9208 - val_loss: 0.7656
 Epoch 14/40
-137/137 - 28s - 203ms/step - accuracy: 0.9028 - loss: 0.7012 - val_accuracy: 0.9205 - val_loss: 0.7287
+137/137 - 26s - 192ms/step - accuracy: 0.8911 - loss: 0.7528 - val_accuracy: 0.9149 - val_loss: 0.7389
 Epoch 15/40
-137/137 - 24s - 176ms/step - accuracy: 0.9180 - loss: 0.6591 - val_accuracy: 0.9617 - val_loss: 0.8865
+137/137 - 26s - 193ms/step - accuracy: 0.9108 - loss: 0.6908 - val_accuracy: 0.9579 - val_loss: 0.8877
 Epoch 16/40
-137/137 - 26s - 187ms/step - accuracy: 0.9136 - loss: 0.6773 - val_accuracy: 0.8826 - val_loss: 0.7240
+137/137 - 25s - 186ms/step - accuracy: 0.9058 - loss: 0.7014 - val_accuracy: 0.8597 - val_loss: 0.7987
 Epoch 17/40
-137/137 - 28s - 203ms/step - accuracy: 0.9194 - loss: 0.6282 - val_accuracy: 0.9629 - val_loss: 0.8163
+137/137 - 27s - 197ms/step - accuracy: 0.9156 - loss: 0.6385 - val_accuracy: 0.9663 - val_loss: 0.8709
 Epoch 18/40
-137/137 - 25s - 186ms/step - accuracy: 0.9252 - loss: 0.6614 - val_accuracy: 0.9000 - val_loss: 0.6761
+137/137 - 24s - 176ms/step - accuracy: 0.9222 - loss: 0.6908 - val_accuracy: 0.8979 - val_loss: 0.6806
 Epoch 19/40
-137/137 - 24s - 176ms/step - accuracy: 0.8923 - loss: 1.0249 - val_accuracy: 0.9315 - val_loss: 0.8801
+137/137 - 26s - 193ms/step - accuracy: 0.9134 - loss: 1.2455 - val_accuracy: 0.9044 - val_loss: 0.8157
 Epoch 20/40
-137/137 - 27s - 197ms/step - accuracy: 0.9066 - loss: 0.7506 - val_accuracy: 0.8852 - val_loss: 0.7439
+137/137 - 25s - 185ms/step - accuracy: 0.8945 - loss: 0.8208 - val_accuracy: 0.8369 - val_loss: 0.8556
 Epoch 21/40
-137/137 - 26s - 189ms/step - accuracy: 0.9166 - loss: 0.7018 - val_accuracy: 0.8539 - val_loss: 0.8164
+137/137 - 32s - 232ms/step - accuracy: 0.8759 - loss: 0.8825 - val_accuracy: 0.7585 - val_loss: 1.0181
 Epoch 22/40
-137/137 - 25s - 184ms/step - accuracy: 0.8941 - loss: 0.9065 - val_accuracy: 0.8455 - val_loss: 0.8693
+137/137 - 26s - 188ms/step - accuracy: 0.8784 - loss: 0.8767 - val_accuracy: 0.8740 - val_loss: 0.7880
 Epoch 23/40
-137/137 - 28s - 203ms/step - accuracy: 0.9153 - loss: 0.7862 - val_accuracy: 0.8175 - val_loss: 0.9792
+137/137 - 26s - 192ms/step - accuracy: 0.9084 - loss: 0.7057 - val_accuracy: 0.8747 - val_loss: 0.7803
 Epoch 24/40
-137/137 - 26s - 190ms/step - accuracy: 0.9168 - loss: 0.8735 - val_accuracy: 0.9387 - val_loss: 0.8089
+137/137 - 26s - 189ms/step - accuracy: 0.9046 - loss: 0.9686 - val_accuracy: 0.9146 - val_loss: 0.7631
 Epoch 25/40
-137/137 - 25s - 185ms/step - accuracy: 0.9076 - loss: 0.7854 - val_accuracy: 0.8441 - val_loss: 0.8355
+137/137 - 25s - 184ms/step - accuracy: 0.9046 - loss: 0.7753 - val_accuracy: 0.8250 - val_loss: 0.8763
 Epoch 26/40
-137/137 - 42s - 309ms/step - accuracy: 0.9071 - loss: 0.8015 - val_accuracy: 0.8282 - val_loss: 0.8709
+137/137 - 26s - 190ms/step - accuracy: 0.9073 - loss: 0.8855 - val_accuracy: 0.8708 - val_loss: 0.7887
 Epoch 27/40
-137/137 - 25s - 184ms/step - accuracy: 0.9078 - loss: 0.7300 - val_accuracy: 0.8633 - val_loss: 0.7832
+137/137 - 25s - 182ms/step - accuracy: 0.9141 - loss: 1.0058 - val_accuracy: 0.9317 - val_loss: 1.0732
 Epoch 28/40
-137/137 - 27s - 194ms/step - accuracy: 0.9027 - loss: 0.7526 - val_accuracy: 0.9173 - val_loss: 0.7442
+137/137 - 25s - 181ms/step - accuracy: 0.9089 - loss: 1.0221 - val_accuracy: 0.8921 - val_loss: 0.8019
 Epoch 29/40
-137/137 - 27s - 196ms/step - accuracy: 0.9274 - loss: 0.6675 - val_accuracy: 0.8192 - val_loss: 0.8997
+137/137 - 27s - 198ms/step - accuracy: 0.9048 - loss: 0.8735 - val_accuracy: 0.6454 - val_loss: 1.2711
 Epoch 30/40
-137/137 - 28s - 202ms/step - accuracy: 0.9357 - loss: 0.6262 - val_accuracy: 0.9095 - val_loss: 0.6969
+137/137 - 27s - 200ms/step - accuracy: 0.9145 - loss: 0.7285 - val_accuracy: 0.8845 - val_loss: 0.7631
 Epoch 31/40
-137/137 - 24s - 177ms/step - accuracy: 0.9168 - loss: 0.6854 - val_accuracy: 0.8206 - val_loss: 0.8909
+137/137 - 26s - 186ms/step - accuracy: 0.8911 - loss: 0.7639 - val_accuracy: 0.7041 - val_loss: 1.1575
 Epoch 32/40
-137/137 - 28s - 204ms/step - accuracy: 0.9053 - loss: 0.6839 - val_accuracy: 0.9321 - val_loss: 0.7259
+137/137 - 27s - 199ms/step - accuracy: 0.8818 - loss: 0.7731 - val_accuracy: 0.9581 - val_loss: 1.1296
 Epoch 33/40
-137/137 - 27s - 198ms/step - accuracy: 0.9224 - loss: 0.7101 - val_accuracy: 0.9114 - val_loss: 0.7027
+137/137 - 29s - 208ms/step - accuracy: 0.9435 - loss: 1.1607 - val_accuracy: 0.9101 - val_loss: 0.9656
 Epoch 34/40
-137/137 - 25s - 182ms/step - accuracy: 0.9229 - loss: 0.6407 - val_accuracy: 0.8528 - val_loss: 0.8016
+137/137 - 26s - 186ms/step - accuracy: 0.9281 - loss: 0.9797 - val_accuracy: 0.9006 - val_loss: 1.0208
 Epoch 35/40
-137/137 - 28s - 202ms/step - accuracy: 0.9280 - loss: 0.6222 - val_accuracy: 0.8860 - val_loss: 0.7161
+137/137 - 26s - 192ms/step - accuracy: 0.9402 - loss: 0.9958 - val_accuracy: 0.9013 - val_loss: 1.0815
 Epoch 36/40
-137/137 - 25s - 179ms/step - accuracy: 0.9274 - loss: 0.6285 - val_accuracy: 0.8925 - val_loss: 0.7388
+137/137 - 24s - 177ms/step - accuracy: 0.9101 - loss: 0.8870 - val_accuracy: 0.9128 - val_loss: 0.9587
 Epoch 37/40
-137/137 - 25s - 184ms/step - accuracy: 0.9259 - loss: 0.6222 - val_accuracy: 0.9559 - val_loss: 0.7066
+137/137 - 25s - 185ms/step - accuracy: 0.8684 - loss: 0.9494 - val_accuracy: 0.9474 - val_loss: 0.9594
 Epoch 38/40
-137/137 - 25s - 185ms/step - accuracy: 0.9308 - loss: 0.6245 - val_accuracy: 0.8617 - val_loss: 0.8543
+137/137 - 26s - 192ms/step - accuracy: 0.9023 - loss: 0.7805 - val_accuracy: 0.7921 - val_loss: 0.8703
 Epoch 39/40
-137/137 - 27s - 196ms/step - accuracy: 0.9088 - loss: 0.8140 - val_accuracy: 0.8262 - val_loss: 0.9533
+137/137 - 24s - 178ms/step - accuracy: 0.8717 - loss: 0.7849 - val_accuracy: 0.8910 - val_loss: 0.8019
 Epoch 40/40
-137/137 - 26s - 188ms/step - accuracy: 0.8897 - loss: 1.5026 - val_accuracy: 0.9352 - val_loss: 0.9353
+137/137 - 26s - 192ms/step - accuracy: 0.8944 - loss: 0.7413 - val_accuracy: 0.9182 - val_loss: 0.8146
 
-Batch 0: 28190 predicted, 0.0 actual
+Batch 0: 34881 predicted, 0.0 actual
 
-Batch 1: 45 predicted, 0.0 actual
+Batch 1: 44 predicted, 0.0 actual
 
-Batch 2: 1104 predicted, 0.0 actual
+Batch 2: 1070 predicted, 0.0 actual
 
-Batch 3: 4018 predicted, 2185.0 actual
+Batch 3: 4362 predicted, 2185.0 actual
 
-Batch 4: 59481 predicted, 1927.0 actual
+Batch 4: 86425 predicted, 1927.0 actual
 
-Batch 5: 71560 predicted, 52598.0 actual
+Batch 5: 83746 predicted, 52598.0 actual
 
-Batch 6: 80679 predicted, 20541.0 actual
+Batch 6: 112994 predicted, 20541.0 actual
 
-Batch 7: 23210 predicted, 0.0 actual
+Batch 7: 29960 predicted, 0.0 actual
 
-Batch 8: 19527 predicted, 12789.0 actual
+Batch 8: 28116 predicted, 12789.0 actual
 
-Batch 9: 59999 predicted, 44966.0 actual
+Batch 9: 64783 predicted, 44966.0 actual
 
-Batch 10: 1114 predicted, 0.0 actual
+Batch 10: 1213 predicted, 0.0 actual
 
-Batch 11: 53083 predicted, 31709.0 actual
+Batch 11: 70779 predicted, 31709.0 actual
 
-Batch 12: 100654 predicted, 0.0 actual
+Batch 12: 116189 predicted, 0.0 actual
 
-Batch 13: 192240 predicted, 14279.0 actual
+Batch 13: 196698 predicted, 14279.0 actual
 
-Batch 14: 8502 predicted, 1659.0 actual
+Batch 14: 10867 predicted, 1659.0 actual
 
-Batch 15: 582 predicted, 0.0 actual
+Batch 15: 2250 predicted, 0.0 actual
 
-Batch 16: 49351 predicted, 0.0 actual
+Batch 16: 242152 predicted, 0.0 actual
 
-Batch 17: 93665 predicted, 204.0 actual
+Batch 17: 234494 predicted, 204.0 actual
 
-Batch 18: 34087 predicted, 39527.0 actual
+Batch 18: 49232 predicted, 39527.0 actual
 
-Batch 19: 8627 predicted, 464.0 actual
+Batch 19: 10899 predicted, 464.0 actual
 
-Batch 20: 77573 predicted, 0.0 actual
+Batch 20: 104592 predicted, 0.0 actual
 
-Batch 21: 121670 predicted, 169085.0 actual
+Batch 21: 169726 predicted, 169085.0 actual
 
-Batch 22: 123269 predicted, 586.0 actual
+Batch 22: 227116 predicted, 586.0 actual
 
-Batch 23: 36628 predicted, 32353.0 actual
+Batch 23: 55960 predicted, 32353.0 actual
 
-Batch 24: 79647 predicted, 4352.0 actual
+Batch 24: 99639 predicted, 4352.0 actual
 
-Batch 25: 1206 predicted, 0.0 actual
+Batch 25: 1527 predicted, 0.0 actual
 
-Batch 26: 149954 predicted, 0.0 actual
+Batch 26: 196429 predicted, 0.0 actual
 
-Batch 27: 47087 predicted, 5428.0 actual
+Batch 27: 57592 predicted, 5428.0 actual
 
-Batch 28: 75283 predicted, 14350.0 actual
+Batch 28: 90092 predicted, 14350.0 actual
 
-Batch 29: 36518 predicted, 434.0 actual
+Batch 29: 58162 predicted, 434.0 actual
 
-Batch 30: 10965 predicted, 462.0 actual
+Batch 30: 13041 predicted, 462.0 actual
 
-Batch 31: 69963 predicted, 13294.0 actual
+Batch 31: 83305 predicted, 13294.0 actual
 
-Batch 32: 157046 predicted, 66564.0 actual
+Batch 32: 238583 predicted, 66564.0 actual
 
-Batch 33: 51488 predicted, 141.0 actual
+Batch 33: 72424 predicted, 141.0 actual
 
-Batch 34: 6857 predicted, 0.0 actual
+Batch 34: 7675 predicted, 0.0 actual
 
-Batch 35: 46118 predicted, 35516.0 actual
+Batch 35: 62941 predicted, 35516.0 actual
 
-Batch 36: 48571 predicted, 0.0 actual
+Batch 36: 98171 predicted, 0.0 actual
 
-Batch 37: 139822 predicted, 167852.0 actual
+Batch 37: 192024 predicted, 167852.0 actual
 
-Batch 38: 8191 predicted, 361.0 actual
+Batch 38: 9624 predicted, 361.0 actual
 
-Batch 39: 169893 predicted, 37250.0 actual
+Batch 39: 196697 predicted, 37250.0 actual
 
-Batch 40: 68544 predicted, 1850.0 actual
+Batch 40: 84305 predicted, 1850.0 actual
 
-Batch 41: 81326 predicted, 663.0 actual
+Batch 41: 97569 predicted, 663.0 actual
 
-Batch 42: 103534 predicted, 0.0 actual
+Batch 42: 136397 predicted, 0.0 actual
 
-Batch 43: 5745 predicted, 0.0 actual
+Batch 43: 6333 predicted, 0.0 actual
 
-Batch 44: 90991 predicted, 0.0 actual
+Batch 44: 133009 predicted, 0.0 actual
 
-Batch 45: 139416 predicted, 0.0 actual
+Batch 45: 224708 predicted, 0.0 actual
