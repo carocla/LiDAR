@@ -1,8 +1,14 @@
-from tensorflow.keras.layers import Conv2D, MaxPool2D
-from tensorflow.keras import Input, Model, Sequential
+# from tf_keras.layers import Conv2D, MaxPool2D
+# from tf_keras import Input, Model
+# NOTE: If running on your local machine instead of BLT, comment out the two lines below and uncomment the two above.
+from keras import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense
+from tensorflow.keras import Input, Model
 
 from tensorflow.nn import weighted_cross_entropy_with_logits
+from functools import partial
 from random import shuffle, seed
+from tensorflow.keras.models import load_model
 from BatchGenerator import BatchGenerator
 import numpy as np
 
@@ -24,24 +30,8 @@ test_tiles = tiles[int(n * 0.8):]
 train_gen = BatchGenerator(train_tiles, '/home/drake/lidar/lidar_chm', '/home/drake/lidar/lidar_tag', batch_size=BATCH_SIZE)
 valid_gen = BatchGenerator(valid_tiles, '/home/drake/lidar/lidar_chm', '/home/drake/lidar/lidar_tag', batch_size=BATCH_SIZE)
 
-# Define model
-model = Sequential()
-model.add(Conv2D(
-    filters=32, kernel_size=(3,3), activation="relu",
-    kernel_initializer='he_uniform', input_shape=(1000,1000,1),
-    padding='same'))
-model.add(Conv2D(
-    filters=32, kernel_size=(3,3), activation="relu",
-    kernel_initializer='he_uniform', padding='same'))
-model.add(Conv2D(
-    filters=64, kernel_size=(3,3), activation="relu",
-    kernel_initializer='he_uniform', padding='same'))
-model.add(Conv2D(
-    filters=64, kernel_size=(3,3), activation="relu",
-    kernel_initializer='he_uniform', padding='same'))
-model.add(Conv2D(
-    filters=1, kernel_size=(1, 1), padding='same'))
-
+# Load model
+model = load_model('/home/carolineclaeson/cs369/LiDAR/lidar_net.keras', compile=False)
 # Compile model
 def weighted_loss(a, b):
     return weighted_cross_entropy_with_logits(a, b, pos_weight=50)
@@ -67,15 +57,3 @@ for chm, tag in valid_gen:
     predict = model.predict(chm, verbose=0) > 0.5
     print(f'\nBatch {i}: {np.sum(predict)} predicted, {np.sum(tag)} actual')
     i += 1
-
-# Old code I was using to display images. As it is won't run on BLT because BLT has no GUI.
-# import matplotlib
-# matplotlib.use('TkAgg')
-# print(train_tiles)
-# train_gen = BatchGenerator(train_tiles, '../lidar_chm', '../lidar_tag', batch_size=BATCH_SIZE, scale_factor=1)
-# chm, tag = train_gen.__getitem__(0)
-# i = 4
-# plt.imshow(chm[i])
-# plt.show()
-# plt.imshow(predict[i])
-# plt.show()
