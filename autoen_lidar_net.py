@@ -1,6 +1,5 @@
-# from tf_keras.layers import Conv2D, MaxPool2D, Flatten, Dense, Dropout
-# from tf_keras import Input, Model
-# from tf_keras import Sequential
+#This code uses an autoencoder architecture with he initialization
+
 # NOTE: If running on your local machine instead of BLT, comment out the two lines below and uncomment the two above.
 from keras import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Reshape, GlobalAveragePooling2D, Conv2DTranspose

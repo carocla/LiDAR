@@ -1,0 +1,134 @@
+
+TRAINING
+Epoch 1/20
+137/137 - 50s - 369ms/step - accuracy: 0.0046 - loss: 1.2930 - val_accuracy: 0.0217 - val_loss: 1.2731
+Epoch 2/20
+137/137 - 23s - 169ms/step - accuracy: 0.0233 - loss: 1.2286 - val_accuracy: 0.0682 - val_loss: 1.2652
+Epoch 3/20
+137/137 - 23s - 170ms/step - accuracy: 0.0988 - loss: 1.2275 - val_accuracy: 0.1401 - val_loss: 1.2647
+Epoch 4/20
+137/137 - 23s - 168ms/step - accuracy: 0.1321 - loss: 1.2274 - val_accuracy: 0.1966 - val_loss: 1.2645
+Epoch 5/20
+137/137 - 23s - 168ms/step - accuracy: 0.1800 - loss: 1.2274 - val_accuracy: 0.2235 - val_loss: 1.2645
+Epoch 6/20
+137/137 - 23s - 168ms/step - accuracy: 0.2053 - loss: 1.2274 - val_accuracy: 0.2710 - val_loss: 1.2644
+Epoch 7/20
+137/137 - 23s - 168ms/step - accuracy: 0.2664 - loss: 1.2274 - val_accuracy: 0.3130 - val_loss: 1.2644
+Epoch 8/20
+137/137 - 23s - 167ms/step - accuracy: 0.2754 - loss: 1.2274 - val_accuracy: 0.2896 - val_loss: 1.2644
+Epoch 9/20
+137/137 - 23s - 166ms/step - accuracy: 0.2397 - loss: 1.2274 - val_accuracy: 0.2889 - val_loss: 1.2644
+Epoch 10/20
+137/137 - 23s - 168ms/step - accuracy: 0.2836 - loss: 1.2274 - val_accuracy: 0.3232 - val_loss: 1.2644
+Epoch 11/20
+137/137 - 23s - 169ms/step - accuracy: 0.3125 - loss: 1.2273 - val_accuracy: 0.3317 - val_loss: 1.2644
+Epoch 12/20
+137/137 - 23s - 168ms/step - accuracy: 0.2748 - loss: 1.2274 - val_accuracy: 0.3732 - val_loss: 1.2644
+Epoch 13/20
+137/137 - 23s - 168ms/step - accuracy: 0.3644 - loss: 1.2273 - val_accuracy: 0.3930 - val_loss: 1.2644
+Epoch 14/20
+137/137 - 23s - 168ms/step - accuracy: 0.3874 - loss: 1.2273 - val_accuracy: 0.4022 - val_loss: 1.2644
+Epoch 15/20
+137/137 - 27s - 198ms/step - accuracy: 0.3852 - loss: 1.2273 - val_accuracy: 0.4054 - val_loss: 1.2644
+Epoch 16/20
+137/137 - 23s - 169ms/step - accuracy: 0.3895 - loss: 1.2273 - val_accuracy: 0.3814 - val_loss: 1.2644
+Epoch 17/20
+137/137 - 23s - 169ms/step - accuracy: 0.3921 - loss: 1.2273 - val_accuracy: 0.4039 - val_loss: 1.2644
+Epoch 18/20
+137/137 - 23s - 166ms/step - accuracy: 0.3816 - loss: 1.2273 - val_accuracy: 0.4326 - val_loss: 1.2644
+Epoch 19/20
+137/137 - 23s - 168ms/step - accuracy: 0.4227 - loss: 1.2273 - val_accuracy: 0.4204 - val_loss: 1.2644
+Epoch 20/20
+137/137 - 23s - 169ms/step - accuracy: 0.4314 - loss: 1.2273 - val_accuracy: 0.4039 - val_loss: 1.2645
+
+Batch 0: 1841 predicted, 0.0 actual
+
+Batch 1: 1602 predicted, 0.0 actual
+
+Batch 2: 1795 predicted, 0.0 actual
+
+Batch 3: 1833 predicted, 2185.0 actual
+
+Batch 4: 1840 predicted, 1927.0 actual
+
+Batch 5: 1845 predicted, 52598.0 actual
+
+Batch 6: 1843 predicted, 20541.0 actual
+
+Batch 7: 1840 predicted, 0.0 actual
+
+Batch 8: 1842 predicted, 12789.0 actual
+
+Batch 9: 1843 predicted, 44966.0 actual
+
+Batch 10: 1718 predicted, 0.0 actual
+
+Batch 11: 1845 predicted, 31709.0 actual
+
+Batch 12: 1844 predicted, 0.0 actual
+
+Batch 13: 1840 predicted, 14279.0 actual
+
+Batch 14: 1836 predicted, 1659.0 actual
+
+Batch 15: 1827 predicted, 0.0 actual
+
+Batch 16: 1834 predicted, 0.0 actual
+
+Batch 17: 1837 predicted, 204.0 actual
+
+Batch 18: 1841 predicted, 39527.0 actual
+
+Batch 19: 1834 predicted, 464.0 actual
+
+Batch 20: 1842 predicted, 0.0 actual
+
+Batch 21: 1845 predicted, 169085.0 actual
+
+Batch 22: 1840 predicted, 586.0 actual
+
+Batch 23: 1843 predicted, 32353.0 actual
+
+Batch 24: 1844 predicted, 4352.0 actual
+
+Batch 25: 1733 predicted, 0.0 actual
+
+Batch 26: 1841 predicted, 0.0 actual
+
+Batch 27: 1843 predicted, 5428.0 actual
+
+Batch 28: 1845 predicted, 14350.0 actual
+
+Batch 29: 1839 predicted, 434.0 actual
+
+Batch 30: 1835 predicted, 462.0 actual
+
+Batch 31: 1844 predicted, 13294.0 actual
+
+Batch 32: 1843 predicted, 66564.0 actual
+
+Batch 33: 1835 predicted, 141.0 actual
+
+Batch 34: 1824 predicted, 0.0 actual
+
+Batch 35: 1844 predicted, 35516.0 actual
+
+Batch 36: 1843 predicted, 0.0 actual
+
+Batch 37: 1845 predicted, 167852.0 actual
+
+Batch 38: 1833 predicted, 361.0 actual
+
+Batch 39: 1845 predicted, 37250.0 actual
+
+Batch 40: 1844 predicted, 1850.0 actual
+
+Batch 41: 1846 predicted, 663.0 actual
+
+Batch 42: 1843 predicted, 0.0 actual
+
+Batch 43: 1828 predicted, 0.0 actual
+
+Batch 44: 1843 predicted, 0.0 actual
+
+Batch 45: 1843 predicted, 0.0 actual
